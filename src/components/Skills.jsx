@@ -39,7 +39,7 @@ const Skills = () => {
             <h3 className="text-xl font-semibold mb-2">Web</h3>
             <ul className="text-white/80 space-y-1">
               <li>HTML, CSS</li>
-              <li>React.js</li>
+              <li>React.js, JavaScript</li>
               <li>Node.js, Express.js</li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ const Skills = () => {
             <FaTools className="text-4xl text-[#80ffdb] mb-4 mx-auto drop-shadow-md" />
             <h3 className="text-xl font-semibold mb-2">Tools & Design</h3>
             <ul className="text-white/80 space-y-1">
-              <li>Git, GitHub, Postman, VS Code</li>
+              <li>GitHub, Postman, VS Code</li>
               <li>Figma, Tailwind CSS, Canva</li>
             </ul>
           </div>

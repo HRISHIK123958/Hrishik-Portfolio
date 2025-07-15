@@ -1,14 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'slide-in': 'slideIn 0.4s ease-out',
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateY(-30px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+      },
+    },
   },
+
   plugins: [require("daisyui")],
+
   daisyui: {
-    // Choose one or multiple themes:
     themes: ["synthwave", "pastel", "dracula"],
-    // Uncomment and set to a theme to override OS dark-mode default:
-    // darkTheme: "dracula",
+    // darkTheme: "dracula", // optional
   },
 };
