@@ -35,7 +35,7 @@ const About = () => {
           data-aos="fade-up"
           className="backdrop-blur-md bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 space-y-6 transition-all duration-300 hover:shadow-[#80ffdb]/30"
         >
-          <h2 className="text-4xl font-extrabold text-[#ff416c] border-b-4 border-[#ff4b2b] inline-block pb-2 drop-shadow-lg">
+          <h2 className="text-4xl font-extrabold text-[#80ffdb] border-b-4 border-[#80ffdb] inline-block pb-2 drop-shadow-lg">
             About Me
           </h2>
 
@@ -57,7 +57,7 @@ const About = () => {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-4">
             <a
-              href="/cv.pdf"
+              href="/CV.pdf"
               download
               className="inline-flex items-center gap-2 bg-[#80ffdb] text-[#1e1e1e] px-5 py-2 rounded-xl font-semibold shadow-md hover:bg-[#5ee8c7] transition-all duration-300"
             >
