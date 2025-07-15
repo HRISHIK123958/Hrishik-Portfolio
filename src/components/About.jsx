@@ -98,7 +98,7 @@ const About = () => {
 
             {/* Modal Iframe */}
             <iframe
-              src="/cv.pdf"
+              src="/CV.pdf"
               className="w-full h-[75vh] transition-all duration-500"
               title="Resume Modal Preview"
             ></iframe>
