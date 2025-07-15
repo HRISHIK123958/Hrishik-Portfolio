@@ -35,7 +35,7 @@ const About = () => {
           data-aos="fade-up"
           className="backdrop-blur-md bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 space-y-6 transition-all duration-300 hover:shadow-[#80ffdb]/30"
         >
-          <h2 className="text-4xl font-extrabold text-[#80ffdb] border-b-4 border-[#80ffdb] inline-block pb-2 drop-shadow-lg">
+          <h2 className="text-4xl font-extrabold text-[#ff416c] border-b-4 border-[#ff4b2b] inline-block pb-2 drop-shadow-lg">
             About Me
           </h2>
 
@@ -99,7 +99,7 @@ const About = () => {
             {/* Modal Iframe */}
             <iframe
               src="/cv.pdf"
-              className="w-full h-[75vh] transition-all duration-400"
+              className="w-full h-[75vh] transition-all duration-500"
               title="Resume Modal Preview"
             ></iframe>
           </div>
